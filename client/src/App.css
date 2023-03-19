@@ -25,6 +25,7 @@ background-color: #B4E4FF;
     padding-left: 10px;
     margin-top: 5px;
     background-color: white;
+    border: none;
   }
   .information button{
     width:320px;
@@ -34,9 +35,47 @@ background-color: #B4E4FF;
     color:white;
   }
 
+  .information button:hover{
+    background-color: grey;
+  }
+
   .title{
      text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
   }
+  .employees{
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+  }
+
+  .employees button{
+    width:320px;
+    height:50px;
+    margin-top:30px;
+    background-color: black;
+    color:white;
+    margin-bottom: 20px;
+  }
+
+  .employees button:hover{
+    background-color: grey;
+  }
+
+   .employee{
+            width:700px;
+            height:auto;
+           
+            margin:10px;
+            display: flex;
+            padding: 10px;
+            background-color: white;
+   }
+
+   .employee h3{
+    margin:20px;
+    background-color: white;
+   }
