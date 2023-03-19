@@ -1,0 +1,42 @@
+ 
+ *{
+background-color: #B4E4FF;
+
+ }
+ 
+ 
+ .App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .information{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+   
+ }
+  .information > input{
+    width:300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+    background-color: white;
+  }
+  .information button{
+    width:320px;
+    height:50px;
+    margin-top:30px;
+    background-color: black;
+    color:white;
+  }
+
+  .title{
+     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
