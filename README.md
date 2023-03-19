@@ -1,2 +1,3 @@
 # Employee Management System 
-Using React.js ,Node and MySQL
+ 
+React CRUD Application using ReactJS NodeJS and MySQL
