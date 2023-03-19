@@ -1,1 +1,2 @@
-# employee_management
+# Employee Management System 
+Using React.js ,Node and MySQL
